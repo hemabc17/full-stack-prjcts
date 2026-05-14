@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MySQL Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <h2>MySQL Docs</h2>
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#install">Installation</a></li>
+            <li><a href="#database">Create Database</a></li>
+            <li><a href="#table">Create Table</a></li>
+            <li><a href="#select">SELECT Query</a></li>
+            <li><a href="#constraints">Constraints</a></li>
+            <li><a href="#joins">JOIN</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+
+        <section id="intro">
+            <h1>Introduction</h1>
+            <p>MySQL is an open-source relational database management system used to store and manage data.MySQL is an open-source relational database management system used to store, organize, and manage data efficiently.It uses Structured Query Language (SQL) to perform operations like creating databases, inserting data, and retrieving information.MySQL is widely used in web applications and works well with languages like PHP and JavaScript.</p>
+        </section>
+
+        <section id="install">
+            <h1>Installation</h1>
+            <p>Download MySQL from the official website and install it on your system.</p>
+        </section>
+
+        <section id="database">
+            <h1>Create Database</h1>
+            <pre>
+CREATE DATABASE college;
+            </pre>
+        </section>
+
+        <section id="table">
+            <h1>Create Table</h1>
+            <pre>
+CREATE TABLE students (
+   id INT PRIMARY KEY,
+   name VARCHAR(50),
+   age INT
+);
+            </pre>
+        </section>
+
+        <section id="select">
+            <h1>SELECT Query</h1>
+            <pre>
+SELECT * FROM students;
+            </pre>
+        </section>
+
+        <section id="constraints">
+            <h1>Constraints</h1>
+            <ul>
+                <li>PRIMARY KEY</li>
+                <li>FOREIGN KEY</li>
+                <li>NOT NULL</li>
+                <li>UNIQUE</li>
+            </ul>
+        </section>
+
+        <section id="joins">
+            <h1>JOIN</h1>
+            <pre>
+SELECT students.name, courses.course_name
+FROM students
+INNER JOIN courses
+ON students.id = courses.student_id;
+            </pre>
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
