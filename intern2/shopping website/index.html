@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Watch Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">⌚ WatchStore</div>
+        <div class="cart-icon" onclick="toggleCart()">
+            🛒 Cart (<span id="cart-count">0</span>)
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Luxury Watches Collection</h1>
+        <p>Discover premium watches for every occasion</p>
+    </section>
+
+    <!-- Products -->
+    <section class="products" id="products"></section>
+
+    <!-- Cart Sidebar -->
+    <div class="cart" id="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <h3>Total: ₹<span id="cart-total">0</span></h3>
+        <button onclick="checkout()">Checkout</button>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
+

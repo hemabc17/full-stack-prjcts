@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" class="logo">
+        <button class="sign-in">Sign In</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Unlimited movies, TV shows and more</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+
+            <div class="email-signup">
+                <input type="email" id="email" placeholder="Email address">
+                <button onclick="getStarted()">Get Started</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Movie Rows -->
+    <section class="movies">
+        <h2>Trending Now</h2>
+        <div class="row">
+            <img src="https://picsum.photos/200/300?1">
+            <img src="https://picsum.photos/200/300?2">
+            <img src="https://picsum.photos/200/300?3">
+            <img src="https://picsum.photos/200/300?4">
+            <img src="https://picsum.photos/200/300?5">
+        </div>
+
+        <h2>Top Rated</h2>
+        <div class="row">
+            <img src="https://picsum.photos/200/300?6">
+            <img src="https://picsum.photos/200/300?7">
+            <img src="https://picsum.photos/200/300?8">
+            <img src="https://picsum.photos/200/300?9">
+            <img src="https://picsum.photos/200/300?10">
+        </div>
+    </section>
+
+<script src="script.js"></script>
+</body>
+</html>

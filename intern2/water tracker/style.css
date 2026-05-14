@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  color: darkblue;
+}
+
+.goal {
+  margin-bottom: 20px;
+}
+
+.cup {
+  background-color: #fff;
+  color: darkblue;
+  border-radius: 0 0 40px 40px;
+  height: 300px;
+  width: 150px;
+  margin: 0 auto 30px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.remained {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.remained span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.percentage {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  height: 0;
+  font-size: 20px;
+  transition: height 0.3s ease;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+.cups {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cup-small {
+  background-color: #fff;
+  color: #3498db;
+  border-radius: 0 0 15px 15px;
+  height: 80px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cup-small.full {
+  background-color: grey;
+  color: #fff;
+}

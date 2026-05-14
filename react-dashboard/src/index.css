@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4e73df, #1cc88a);
+}
+
+.container {
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.task-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.task-table th,
+.task-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.task-table tr:hover {
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4e73df;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2e59d9;
+}
+
+.demo-section {
+  margin-top: 40px;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.demo-section button {
+  background-color: #1cc88a;
+  color: white;
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+.demo-section button:hover {
+  background-color: #17a673;
+}
+.demo-section button {
+  background-color: #f6c23e;
+  color: black;
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+.demo-section button:hover {
+  background-color: #dda20a;
+}
+.demo-section input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 6px;
+  width: 120px;
+}
+
+.demo-section p {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* Button style for HOC Counter */
+.demo-section button {
+  background-color: #4e73df;
+  color: white;
+  padding: 8px 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.demo-section button:hover {
+  background-color: #2e59d9;
+}
+.demo-section button {
+  background-color: #1cc88a;
+  color: white;
+  padding: 8px 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.demo-section button:hover {
+  background-color: #17a673;
+}
+
+.demo-section button {
+  transition: all 0.3s ease;
+}

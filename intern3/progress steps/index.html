@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout Progress Bar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="progress-container">
+        <div class="progress" id="progress"></div>
+
+        <div class="step active">
+            <div class="circle">✔</div>
+            <p>Shopping basket</p>
+        </div>
+
+        <div class="step active">
+            <div class="circle">✔</div>
+            <p>Personal details</p>
+        </div>
+
+        <div class="step">
+            <div class="circle">3</div>
+            <p>Shipping details</p>
+        </div>
+
+        <div class="step">
+            <div class="circle">4</div>
+            <p>Confirmation</p>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
